@@ -1,0 +1,23 @@
+{
+  "name": "iget-master/api-base",
+  "description": "An API Base for Laravel 5.2 API's",
+  "authors": [
+    {
+      "name": "Elias Soares",
+      "email": "esoares@iget.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iget\\ApiBase\\": "src/"
+    }
+  },
+  "scripts": {
+
+  },
+  "minimum-stability": "stable"
+}
